@@ -7,7 +7,7 @@ enum numOption {
 //% weight=100 color=#0fbc11 icon="\uf042" block="area translate"
 namespace area {
     //% blockId="showArea" block="Translate:area:%n|option:%myopt"
-    //% n.min=1 n.max=20 n.defl=8
+    //% value.min=1 value.max=20 value.defl=8
     export function showArea(value: number, myopt: numOption): void {
         if (myopt == numOption.round) {
             basic.showNumber(Math.round(value * 0.3025));
@@ -17,7 +17,7 @@ namespace area {
 
     }
 
-    //% blockID="getArea" block="Return the translated area: area:%n|opption:%myopt"
+    //% blockID="getArea" block="Return the translated area: area:%n|option:%myopt"
     export function getArea(value: number, myopt: numOption): number {
         let ret = 0;
         if (myopt == numOption.round) {
