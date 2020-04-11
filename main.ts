@@ -17,8 +17,8 @@ namespace area {
 
     }
 
-    //% blockID="getrea" block="Return the translated area: area:%n|opption:%myopt"
-    export function area(value: number, myopt: numOption): number {
+    //% blockID="getArea" block="Return the translated area: area:%n|opption:%myopt"
+    export function getArea(value: number, myopt: numOption): number {
         let ret = 0;
         if (myopt == numOption.round) {
             ret = Math.round(value * 0.3025)
