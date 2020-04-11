@@ -1,0 +1,7 @@
+{
+"area|block": "面積",
+"area.showArea|block": "顯示多少坪:面積平方公尺: %value|選項:%myopt",
+"area.getArea|block": "取得多少坪:面積平方公尺: %value|選項:%myopt",
+"numOption.round|block": "四捨五入",
+"numOption.float|block": "允許小數"
+}
