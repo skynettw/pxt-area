@@ -1,10 +1,11 @@
 enum numOption {
-    //% block="四捨五入"
+    //% block="rounding"
     round,
-    //% block="保留小數"
+    //% block="float"
     float
 }
-//% weight=100 color=#0fbc11 icon="\uf042" block="area translate"
+
+//% weight=100 color=#0fbc11 icon="\uf042" block="Area"
 namespace area {
     //% blockId="showArea" block="Translate:area:%n|option:%myopt"
     //% value.min=1 value.max=20 value.defl=8

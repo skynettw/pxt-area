@@ -7,9 +7,9 @@
 "core": "*"
 },
 "files": [
-"README.md",
-"main.ts",
-"_locales/zh-tw/area-strings.json"
-],
-"public": true
+	"README.md",
+	"main.ts",
+	"_locales/zh-tw/area-strings.json"
+	],
+	"public": true
 }
