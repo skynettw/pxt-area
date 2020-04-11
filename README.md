@@ -8,4 +8,3 @@ MIT
 ```package
 area=github:skynettw/pxt-area
 ```
-------------------
